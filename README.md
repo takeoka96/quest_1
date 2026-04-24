@@ -9,7 +9,7 @@ EDINETの有価証券報告書データを分析し、建設業界および日�
 
 - `notebooks/01_edinet_data_collection.ipynb` - データ収集・前処理
 - `notebooks/02_eda_visualization.ipynb` - EDA・可視化・モデル分析
-- `docs/提言書v3.md` - 提言書
+- `docs/提言書.md` - 提言書
 - `docs/presentation.pptx` - プレゼンテーション資料
 
 ## 分析の流れ
