@@ -10,12 +10,14 @@ EDINETの有価証券報告書データを分析し、建設業界および日�
 - `notebooks/01_edinet_data_collection.ipynb` - データ収集・前処理
 - `notebooks/02_eda_visualization.ipynb` - EDA・可視化・モデル分析
 - `docs/提言書.md` - 提言書
-- `docs/presentation.pptx` - プレゼンテーション資料
+- `docs/presentation1.pdf` - プレゼンテーション資料
+- `docs/要件定義.md` - 要件定義書
+- `docs/仕様書.md` - 仕様書
 
 ## 分析の流れ
 
 1. EDINETからデータ取得（建設業142社・全業界845社）
-2. 業界横断分析（建設業ワースト2位を確認）
+2. 業界横断分析
 3. クラスタリング・相関分析
 4. LightGBM・SHAP・LIME分析
 5. 国際比較
@@ -42,6 +44,11 @@ pip install -r requirements.txt
 - 労働政策研究・研修機構「データブック国際労働比較2025」
 - Global Gender Gap Report 2024（World Economic Forum）
 - 日揮ホールディングス株式会社「JGC Report 2025」
+- 日揮ホールディングス株式会社 公式サイト
+- 厚労省えるぼし認定企業一覧
+- 内閣府「機関投資家が評価する企業の女性活躍推進と情報開示」
+- 富士フイルムホールディングス株式会社 公式サイト
+- Fluor Corporation Annual Report 2024
 
 ## 主な分析結果
 
