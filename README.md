@@ -9,9 +9,11 @@ EDINETの有価証券報告書データを分析し、建設業界および日�
 
 - `notebooks/01_edinet_data_collection.ipynb` - データ収集・前処理
 - `notebooks/02_eda_visualization.ipynb` - EDA・可視化・モデル分析
+- `src/edinet_fetcher.py` - EDINET APIデータ取得モジュール
+- `src/data_processor.py` - データ前処理・指標抽出モジュール
+- `docs/プレゼンテーション.pdf` - プレゼンテーション資料
 - `docs/提言書.md` - 提言書
-- `docs/presentation1.pdf` - プレゼンテーション資料
-- `docs/要件定義.md` - 要件定義書
+- `docs/要件定義.md` - 要件定義
 - `docs/仕様書.md` - 仕様書
 
 ## 分析の流れ
